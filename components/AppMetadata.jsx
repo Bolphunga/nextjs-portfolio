@@ -1,6 +1,6 @@
-const author = "Vasile Novatchii";
+const author = "Ahmed Djebnoune";
 const description =
-	"Software developer from Moldova, Republic of, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
+	"Front-End developer from Algeria, who loves to develop beautiful websites, single page applications, or code from scratch using React and Next.js";
 const url = "https://vasile-novatchii.netlify.app";
 export const AppMetadata = {
 	metadataBase: new URL("https://vasile-novatchii.netlify.app/"),
@@ -13,10 +13,9 @@ export const AppMetadata = {
 		icon: "/favicon.png"
 	},
 	keywords: [
-		"Vasile Novatchii",
-		"Vasile Novatchii - software developer",
+		"Ahmed Djebnoune",
+		"Ahmed Djebnoune - Front-End developer",
 		"Frontend developer",
-		"Flutter developer",
 		"Portfolio website",
 		"Frontend Developer Portfolio"
 	],

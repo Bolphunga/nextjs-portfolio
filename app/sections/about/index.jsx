@@ -25,29 +25,16 @@ export function AboutSection() {
 						}}
 					>
 						<p>
-							My name is Vasile. I successfully graduated Technical University of Moldova, computer
-							science faculty.
+						Hello there! My name is Ahmed, but you can call me Aymen. I embarked on my professional journey with a Bachelor&apos;s degree in electrical engineering in 2019. However, as the pandemic reshaped the professional landscape, I found myself drawn to the dynamic world of IT.
 						</p>
 						<p>
-							During my university years, I developed a deep passion for web programming, and I
-							consistently engaged in learning new concepts and techniques in this field.
-						</p>
-						<p>So, officially, my programming journey began in 2017 as a WordPress developer.</p>
-						<p className="my-3.5">
-							I enjoy learning technologies that interest me, which is why I dedicated a significant
-							amount of time to working with WordPress.
+						My exploration led me to the captivating realm of data analysis, where I honed my skills in manipulating databases using SQL. The intricacies of this field fascinated me, prompting me to delve deeper on my own terms. This passion eventually led me to the Re:Coded Front-end BootCamp, an immersive experience that equipped me with the skills to craft intuitive and interactive web applications using React and Next.js.
 						</p>
 						<p>
-							One day, I decided to try something new, and I started learning React. I was so
-							excited to see how fast I can build a website with it, and how easy it is to maintain
-							it. Consequently, I quickly learnt Next.js and I used it to build some company
-							projects working in a team with a backend dev.
+						Now, armed with a burning desire to elevate my craft, I am eager to explore the depths of backend development. My journey so far has been a testament to my adaptability and resilience in the face of change. I am not just a tech enthusiast; I am on a mission to create better websites, pushing the boundaries of what&apos;s possible in the digital landscape.
 						</p>
 						<p className="my-3.5">
-							In december 2023, I had an opportunity to start working as a React developer for a
-							company with the possibility of transitioning to mobile development. I was skeptical
-							about it at first, but I decided to give it a try, and I don&lsquo;t regret it. Now, I
-							thoroughly enjoy working with Flutter and Dart.
+							Join me on this exciting journey as I continue to evolve, innovate, and bring my unique perspective to the ever-evolving world of web development. Let&apos;s create something extraordinary together!
 						</p>
 					</div>
 				</div>

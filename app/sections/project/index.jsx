@@ -1,26 +1,29 @@
 import { Suspense, useRef } from "react";
 import { domAnimation, LazyMotion, useInView } from "framer-motion";
-import Link from "next/link";
-import useSWR from "swr";
+// import Link from "next/link";
+// import useSWR from "swr";
 import { HeadingDivider, Loader } from "components";
-import { fetcher } from "utils/fetcher";
+// import { fetcher } from "utils/fetcher";
 import Error from "../../error";
 import { ErrorBoundary } from "react-error-boundary";
 import { Projects } from "../../projects/components/Projects";
-import { SITE_ROUTES } from "../../../constants";
+// import { SITE_ROUTES } from "../../../constants";
+import { LocalProjects } from "constants/mydb"
 
-const url = `${process.env.NEXT_PUBLIC_SANITY_URL}${process.env.NEXT_PUBLIC_SANITY_LATEST_PROJECTS}`;
+// const url = `${process.env.NEXT_PUBLIC_SANITY_URL}${process.env.NEXT_PUBLIC_SANITY_LATEST_PROJECTS}`;
 
 export function ProjectsSection() {
+	
 	const btnRef = useRef(null);
 	const isBtnInView = useInView(btnRef, { once: true });
 
-	const { data, error } = useSWR(url, fetcher);
-	const projects = data?.result;
+	// const { data, error } = useSWR(url, fetcher);
+	// const projects = data?.result;
+	const projects = LocalProjects;
 
-	if (error && !data) {
-		return null;
-	}
+	// if (error && !data) {
+	// 	return null;
+	// }
 
 	return (
 		<LazyMotion features={domAnimation}>
@@ -41,7 +44,7 @@ export function ProjectsSection() {
 						</ErrorBoundary>
 					</Suspense>
 
-					<Link
+					{/* <Link
 						href={SITE_ROUTES.projects}
 						tabIndex={-1}
 						aria-label="Go to projects page"
@@ -54,7 +57,7 @@ export function ProjectsSection() {
 						}}
 					>
 						<button aria-label="See more projects">More projects</button>
-					</Link>
+					</Link> */}
 				</div>
 			</section>
 		</LazyMotion>
