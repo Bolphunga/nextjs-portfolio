@@ -4,10 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 
 const TimeLineData = [
-	{ year: 2023, text: "Graduate from the Re:Coded Bootcamp and start my journey as a Front-End Developer" },
-	{ year: 2022, text: "Dive in completely into the data world" },
-	{ year: 2021, text: "Begin programming journey with data analysis" },
-	{ year: 2019, text: "Graduate with Electrical Engineering Bachelor's" }
+	{ year: 2023, text: "Graduate from the Re:Coded Bootcamp and start my journey as a Front-End Developer." },
+	{ year: 2022, text: "Dive completely into the world of data." },
+	{ year: 2021, text: "Begin programming journey with data analysis." },
+	{ year: 2019, text: "Graduate with Electrical Engineering Bachelor's." }
 ];
 
 export function TimeLine() {

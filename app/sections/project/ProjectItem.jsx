@@ -70,30 +70,32 @@ export function ProjectItem({ project, index }) {
 						</div>
 					)}
 
-					<div className="flex-center gap-10">
-						{repoUrl && (
-							<Link
-								href={repoUrl}
-								target="_blank"
-								className="icon-link-btn"
-								title="Go to Github repository"
-							>
-								<VscSourceControl />
-								<span>Source</span>
-							</Link>
-						)}
-						{liveUrl && (
-							<Link
-								href={liveUrl}
-								target="_blank"
-								className="icon-link-btn"
-								title="Go to live address"
-							>
-								<FiExternalLink />
-								<span>Demo</span>
-							</Link>
-						)}
-					</div>
+<div className="flex-center gap-10">
+    {repoUrl && (
+        <a
+            href={repoUrl}
+            target="_blank"
+            className="icon-link-btn"
+            rel="noopener noreferrer" // added for security reasons
+            title="Go to Github repository"
+        >
+            <VscSourceControl />
+            <span>Source</span>
+        </a>
+    )}
+    {liveUrl && (
+        <a
+            href={liveUrl}
+            target="_blank"
+            className="icon-link-btn"
+            rel="noopener noreferrer" // added for security reasons
+            title="Go to live address"
+        >
+            <FiExternalLink />
+            <span>Demo</span>
+        </a>
+    )}
+</div>
 				</footer>
 			</div>
 		</article>
